@@ -3,7 +3,7 @@ self.addEventListener('install', (e) => {
     e.waitUntil(
       caches.open('ecom-cache').then((cache) => {
         return cache.addAll([
-          '/',
+          '/pwadeploy/',
           '/pwadeploy/index.html',
           '/pwadeploy/manifest.json',
           '/pwadeploy/logo192.png',
