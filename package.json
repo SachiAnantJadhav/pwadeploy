@@ -2,7 +2,7 @@
   "name": "hotel-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://SachiAnantJadhav.github.io/pwadeploy",
+  "homepage": "https://SachiAnantJadhav.github.io/pwadeploy/public/index.html",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
