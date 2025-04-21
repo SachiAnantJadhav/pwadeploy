@@ -4,10 +4,10 @@ self.addEventListener('install', (e) => {
       caches.open('ecom-cache').then((cache) => {
         return cache.addAll([
           '/',
-          '/index.html',
-          '/manifest.json',
-          '/logo192.png',
-          '/logo512.png',
+          '/pwadeploy/index.html',
+          '/pwadeploy/manifest.json',
+          '/pwadeploy/logo192.png',
+          '/pwadeploy/logo512.png',
         ]);
       })
     );
